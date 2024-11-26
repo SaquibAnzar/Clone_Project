@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:#FFFFFF;
+}
+#Navbar{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* border-bottom:1px solid #ddd; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /* position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0; */
+    width: 100%; 
+}
+#Navbar div{
+    margin-left: 30px;
+    font-size: 20px;
+    display: flex;
+}
+img[alt="Logo"]{
+    background-color:#222222
+}
+#Navbar .Mnav i{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+#Navbar .Mnav input{
+    /* margin-left: -1px; */
+    /* margin-top: 0px; */
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-left:30px;
+    padding-right: 400px;
+    border-radius: 5px;
+    border: 1px solid #2B3149;
+}
+.Menu{
+    display: flex;
+    margin-left: 250px;
+}
+.Navbar2{
+    background-color:#F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    /* border-bottom:1px solid #ddd; */
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+}
+.Fnav1{
+    display: flex;
+    /* padding-right: 200px; */
+    margin-right:200px;
+}
+.Fnav1 div{
+    display: flex;
+    padding-left: 32px;
+   font-size: large;
+}
+.Enav{
+    display: flex;
+    margin-left: 200px;
+
+}
+.Enav div{
+    display: flex;
+    padding-left: 32px;
+    font-size: large;
+}
+.Menu button{
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(226, 6, 6);
+    border: none;
+    border-radius: 5px;
+}
+
+.bg{
+    margin-top: 10px;
+    margin-left: 135px;
+}
+.cont{
+    margin-left: 135px;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.img1{
+    display: flex;
+    margin-left: 135px;
+    margin-top: 10px;
+    column-gap: 30px;
+    
+}
+.img2{
+    display: flex;
+    margin-left: 135px;
+    margin-top: 10px;
+    column-gap: 30px;
+    color: white;
+    
+}
+.img3{
+    display: flex;
+    margin-left: 135px;
+    margin-top: 10px;
+    column-gap: 30px;
+    /* color: white; */
+    margin-bottom: 120px;
+    
+}
+.item{
+    height: 350px;
+    width: 225px;
+    border-radius: 20px;
+}
+
+.item1{
+    height: 250px;
+    width: 225px;
+    border-radius: 20px;
+}
+.bg1{
+    margin-top: 100px;
+    margin-left: 135px;
+}
+.background{
+    width: 100%;
+    height: 650px;
+    background-color: #2B3149;
+    margin-top: 50px;
+
+}
+.logo{
+    margin-left: 135px;
+    margin-top: 10px;
+}
+.Htext{
+    margin-left: 140px;
+    color: #FFFFFF;
+
+}
+
+
+/* ===================== fotter Path ======================== */
+footer {
+    background-color:#333339;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color:#222222;
+    margin-top: 100px;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 150px;
+}
+.Nav4{
+    margin-left: 160px;
+  
+
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #888787;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a, .app-store a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img, .app-store img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+    color: #888;
+}
+.social-icons{
+    font-size: 30px;
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 25px;
+}
