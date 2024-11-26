@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #222222;
+    margin-top: 60px;
+}
+#Navbar{
+    background-color:#000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* border-bottom:1px solid #ddd; */
+    margin-bottom: 20px;
+     position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0; 
+    width: 100%;
+}
+#Navbar div{
+    margin-left: 60px;
+    font-size: 20px;
+    display: flex;
+    color: white;
+}
+.Fnav img{
+    height: 40px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    /* font-weight: bold; */
+    font-family: sans-serif;
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.728);
+}
+
+.Head{
+    margin-top: 2px;
+}
+.Htext{
+    position: absolute;
+    color: white;
+    top: 167px;
+    left:540px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt{
+    position: absolute;
+    color: white;
+    top: 215px;
+    left:625px;
+    font-size:large;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htext1{
+    position: absolute;
+    color: white;
+    top: 243px;
+    left: 713px;
+    /* font-size:; */
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Head1{
+    margin-top: 10px;
+}
+
+.Htxt1{
+    position: absolute;
+    color: white;
+    top: 725px;
+    left: 597px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt2{
+    position: absolute;
+    color: white;
+    top: 772px;
+    left: 496px;
+    font-size:large;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Htxt3{
+    position: absolute;
+    color: white;
+    top: 802px;
+    left: 677px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Head2{
+    display: flex;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+.Htxt4{
+    position: absolute;
+    color: white;
+    top: 1303px;
+    left: 463px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt5{
+    position: absolute;
+    color: white;
+    top: 1344px;
+    left: 739px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt6{
+    position: absolute;
+    color: white;
+    top: 1368px;
+    left: 721px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt7{
+    position: absolute;
+    color: white;
+    top: 1860px;
+    left: 101px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt8{
+    position: absolute;
+    color: white;
+    top: 1906px;
+    left: 201px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt9{
+    position: absolute;
+    color: white;
+    top: 1936px;
+    left: 214px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt10{
+    position: absolute;
+    color: white;
+    top: 1860px;
+    left: 883px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt11{
+    position: absolute;
+    color: white;
+    top: 1906px;
+    left: 1037px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt12{
+    position: absolute;
+    color: white;
+    top: 1936px;
+    left: 1062px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt13{
+    position: absolute;
+    color: white;
+    top: 2320px;
+    left: 119px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt14{
+    position: absolute;
+    color: white;
+    top: 2364px;
+    left: 258px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt15{
+    position: absolute;
+    color: white;
+    top: 2392px;
+    left: 287px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt16{
+    position: absolute;
+    color: white;
+    top: 2320px;
+    left: 828px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt17{
+    position: absolute;
+    color: white;
+    top: 2364px;
+    left: 996px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt18{
+    position: absolute;
+    color: white;
+    top: 2392px;
+    left: 1079px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt19{
+    position: absolute;
+    color: black;
+    top: 2801px;
+    left: 119px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htext3{
+    position: absolute;
+    color: black;
+    top: 2831px;
+    left: 291px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt20{
+    position: absolute;
+    color: black;
+    top: 2874px;
+    left: 128px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt21{
+    position: absolute;
+    color: black;
+    top: 2903px;
+    left: 265px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt22{
+    position: absolute;
+    color: white;
+    top: 2801px;
+    left: 842px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt23{
+    position: absolute;
+    color: white;
+    top: 2845px;
+    left: 989px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Htxt24{
+    position: absolute;
+    color: white;
+   top: 2870px;
+    left: 1077px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ===================== fotter Path ======================== */
+footer {
+    background-color: #111111;
+    padding: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 7px;
+    margin-left: 70px;
+}
+.Nav4{
+    margin-left: 70px;
+  
+
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #888787;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a, .app-store a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img, .app-store img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+    color: #888;
+}
+.social-icons{
+    font-size: 25px;
+    /* display: flex; */
+    column-gap: 10px;
+    margin-bottom: 5px;
+    color: #888787;
+}
