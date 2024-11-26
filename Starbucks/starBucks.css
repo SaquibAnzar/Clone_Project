@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#Navbar{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Fnav{
+    font-size: larger;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    
+}
+.Enav{
+    font-size: larger;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.Enav input{
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.Enav i{
+    position: absolute;
+    top: 24px;
+    left: 1140px;
+    cursor: pointer;
+}
+.Mnav{
+    display: flex;
+    font-size:x-large ;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #1E3932;
+    
+    
+}
+.header div{ 
+    color: white;
+    font-size: x-large;
+   position: absolute;
+    top: 85px;
+    left: 100px;
+    /* font-weight: bold; */
+}
+.header .btn{
+    position: absolute;
+    color: white;
+    top: 85px;
+    left: 1308px;
+    border: 1px solid white;
+    border-radius: 200px;
+    font-size: medium;
+    font-weight: bold;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+
+.bg1{
+  
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: #FFFFFF;
+    
+   
+    
+}
+img[alt="Bground"]{
+   border-radius: 10px;
+   width: 1300px;
+   height: 200px;
+  
+}
+img[alt="Cup"]{
+    position: absolute;
+    z-index: 20;
+    height: 250px;
+    /* right: 0px; */
+    left: 105px;
+    top: 145px;
+    cursor: pointer;
+    
+}
+button{
+   position: absolute;
+   z-index: 20;
+   left: 1191px;
+   top: 300px;
+   background-color: #FFFFFF;
+   border-radius: 300px;
+   padding: 10px 45px ;
+   font-size: medium;
+   cursor: pointer;
+   
+   
+}
+.Text1{
+   position: absolute;
+   z-index: 20;
+   left: 285px;
+    top: 196px;
+   font-size: medium;
+   cursor: pointer;
+   color: white;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Text2{
+   position: absolute;
+   z-index: 20;
+   left: 285px;
+    top: 231px;
+   font-size: x-large;
+   font-weight: bold;
+   cursor: pointer;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: white;
+}
+.Text3{
+   position: absolute;
+   z-index: 20;
+   left: 285px;
+   top: 276px;
+   font-size: medium;
+   cursor: pointer;
+   color: white;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ .Htext{
+   
+    margin-top: 50px;
+    margin-left: 100px;
+ }
+
+ .Hcircle{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: #FFFFFF;
+    column-gap: 100px;
+ }
+  .circle{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: bolder;
+   
+   
+  }
+   
+ 
+ .circle img{
+    border-radius: 50%;
+    /* font-size: large;
+    font-weight: bold; */
+    text-align: center;
+    cursor: pointer;
+
+ }
+ 
+ 
+ .header2{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background-color: #EDEBE9;
+    margin-top: 50px;
+    column-gap: 50px;
+    padding-left: 100px;
+    padding-top:90px;
+ }
+ .cant{
+    width: 400px;
+    height: 170px;
+    
+    background-color:#FFFFFF;
+    border-radius: 20px 20px 20px 20px;
+    
+   
+ }
+ .item{
+    position: absolute;
+    top: 826px;
+    left: 221px;
+    cursor: pointer;
+ }
+ .item1{
+    position: absolute;
+    top: 843px;
+    left: 221px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .item2{
+    position: absolute;
+    top: 862px;
+    left: 223px;
+    font-size: smaller;
+    cursor: pointer;
+ }
+ .item3{
+    position: absolute;
+    top: 927px;
+    left: 121px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .item4{
+    position: absolute;
+    color: white;
+    top: 917px;
+    left: 368px;
+    border: 1px solid white;
+    border-radius: 200px;
+    font-size: medium;
+    font-weight: bold;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: green;
+    cursor: pointer;
+ }
+ .iten{
+    position: absolute;
+    top: 826px;
+    left: 670px;
+    cursor: pointer;
+ }
+ .iten1{
+    position: absolute;
+    top: 843px;
+    left: 670px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .iten2{
+    position: absolute;
+    top: 862px;
+    left: 671px;
+    font-size: smaller;
+    cursor: pointer;
+ }
+ .iten3{
+    position: absolute;
+    top: 927px;
+    left: 575px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .iten4{
+    position: absolute;
+    color: white;
+    top: 917px;
+    left: 820px;
+    border: 1px solid white;
+    border-radius: 200px;
+    font-size: medium;
+    font-weight: bold;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: green;
+    cursor: pointer;
+ }
+ .itn{
+    position: absolute;
+    top: 826px;
+    left: 1120px;
+    cursor: pointer;
+ }
+ .itn1{
+    position: absolute;
+    top: 843px;
+    left: 1120px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .itn2{
+    position: absolute;
+    top: 862px;
+    left: 1121px;
+    font-size: smaller;
+    cursor: pointer;
+ }
+ .itn3{
+    position: absolute;
+    top: 927px;
+    left: 1023px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .itn4{
+    position: absolute;
+    color: white;
+    top: 917px;
+    left: 1276px;
+    border: 1px solid white;
+    border-radius: 200px;
+    font-size: medium;
+    font-weight: bold;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: green;
+    cursor: pointer;
+ }
+ .box1{
+    height: 85px;
+    width: 85px;
+    /* background-color: aqua; */
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    
+    
+ }
+ .Htext1{
+    position: absolute;
+    top: 737px;
+    left: 100px;
+ }
+
+ .header3{
+    display: flex;
+    width: 100%;
+    height: 530px;
+    background-color: #EDEBE9;
+    margin-top: 50px;
+    column-gap: 15px;
+    padding-left: 100px;
+    padding-top:90px;
+ }
+ .header3 img{
+    height: 400px;
+    width: 1300px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0.8;
+
+ }
+ .Htext3{
+    position: absolute;
+    top:1145px;
+    left:100px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .Htxt4{
+    position: absolute;
+    top: 1451px;
+    left: 138px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+ }
+ .Htxt5{
+    position: absolute;
+    top: 1487px;
+    left: 138px;
+    color: white;
+    cursor: pointer;
+   
+ }
+ .Htxt6{
+    position: absolute;
+    color: black;
+    top: 1535px;
+    left: 140px;
+    border: 1px solid white;
+    border-radius: 200px;
+    font-size: medium;
+    font-weight: bold;
+    padding: 6px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color:white;
+    cursor: pointer;
+ }
+ .Htxt7{
+   position: absolute;
+   color: green;
+   top: 1213px;
+   left: 140px;
+   border: 1px solid white;
+   border-radius: 5px;
+   font-size: small;
+   font-weight: bold;
+   padding: 2px;
+   padding-left: 15px;
+   padding-right: 15px;
+   background-color:white;
+   opacity: 0.8;
+   cursor: pointer;
+
+}
+
+ 
+ 
+/* ===================== fotter Path ======================== */
+footer {
+    background-color:#0F382C;
+    padding: 30px ;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+   margin-left:-100px;
+}
+.Nav4{
+    margin-left: 160px;
+  
+
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 28px;
+}
+
+.footer-section ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a, .app-store a {
+    /* display: inline-block; */
+    margin-right: 10px;
+    background-color: white;
+}
+
+.social-icons img, .app-store img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.social-icons{
+    font-size: 30px;
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 25px;
+}
